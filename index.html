@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Schere - Stein - Papier</h1>
+
+        <h2>Wähle deine Waffe</h2>
+
+        <p class="my-output">Meine Wahl:</p>
+        <p class="cpu-output">Gegners Wahl:</p>
+        <p class="result">Ergebnis:</p>
+        <p class="runden">Runde:</p>
+        <div class="score">
+          <p class="my-score">Deine Siege:</p>
+
+          <p class="cpu-score">Gegners Siege:</p>
+        </div>
+
+        <div>
+          <img class="schere" src="./img/scissors-23412_1280.png" alt="" onclick="playGame('Schere')" />
+          <img class="stein" src="./img/asteroid-8464820_1280.png" alt="" onclick="playGame('Stein')" />
+          <img class="papier" src="./img/cardboard-1699649_1280.webp" alt="" onclick="playGame('Papier')" />
+        </div>
+
+        <form>
+          <input type="submit" value="Neues Spiel" />
+        </form>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
